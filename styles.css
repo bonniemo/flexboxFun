@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e1e1e;
+    min-height: 100vh;
+    padding: 3rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+article {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    border: 1rem solid white;
+    margin-bottom: 5rem;
+}
+
+.txt__wrap {
+    margin: auto;
+}

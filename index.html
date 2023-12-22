@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- article med display flex -->
+   <article>
+
+    <!-- section för bild = flex child -->
+    <section><img src="/images/wird cat.png" alt=""></section>
+
+    <!-- alla h1 och p = flex children eftersom de ligger löst i 
+    article och kommer därmed lägga sig på rad när vi skriver 
+    display flex. (default är flex direction: row) -->
+    <h1>GOD JUL</h1>
+    <p>Det har snöööööat!</p>
+    <p>YAAAAAAAAY!</p>
+    <p>Men var nu inte ute och åk pulka hela lovet för det</p>
+    <p>vi måste faktiskt plugga</p>
+    <p>No rest for the wicked</p>
+   </article>
+
+   <!-- KORT TVÅ -->
+
+   <!-- article med display flex -->
+   <article>
+
+     <!-- section för bild = flex child -->
+    <section><img src="/images/wird cat.png" alt=""></section>
+
+    <!-- section för text = flex child -->
+    <section class="txt__wrap">
+     
+    <!-- Nu är h1 och alla p INTE flex children eftersom de är barnbarn
+    till article och flex påverkar bara det första barnet. 
+    Så section txt__wrap lägger sig på rad och h1 och p lägger sig 
+    som column -->
+    <h1>GOD JUL</h1>
+    <p>Det har snöööööat!</p>
+    <p>YAAAAAAAAY!</p>
+    <p>Men var nu inte ute och åk pulka hela lovet för det</p>
+    <p>vi måste faktiskt plugga</p>
+    <p>No rest for the wicked</p>
+    </section>
+   </article>
+</body>
+</html>
